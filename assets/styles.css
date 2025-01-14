@@ -1,0 +1,63 @@
+:root {
+    --blue: #2de2e6;
+    --pink: #f6019d;
+}
+
+body {
+    margin: 0;
+}
+
+nav {
+    padding: 10px 30px 10px 30px;
+    box-shadow: 10px 0px 10px 0px black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+#name {
+    font-size: 1.5rem;
+    font-family: "Jost", serif;
+    font-weight: 600;
+    color: var(--pink);
+}
+
+#ddbtn {
+    background: none;
+    border: none;
+}
+
+#mobilelinks {
+    display: none;
+}
+
+.link {
+    padding-right: 20px;
+    text-decoration: none;
+    font-size: 1.15rem;
+    color: black;
+    text-decoration: underline;
+    transition: 175ms ease-in;
+    font-family: "Jost", serif;
+    font-weight: 500;
+}
+
+.link:hover {
+    color: var(--pink);
+}
+
+#hamburger {
+    width: 50px;
+    height: 50px;
+}
+
+@media (max-width: 552px) {
+    #linkarea {
+        display: none;
+    }
+}
+@media (min-width: 552px) {
+    #mobilenav {
+        display: none;
+    }
+}
