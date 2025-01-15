@@ -182,10 +182,53 @@ h1 {
     font-family: "Jost", serif;
     font-weight: 500;
     color: var(--pink);
+    text-align: center;
+}
+
+p {
+    text-align: center;
+    font-family: "Jost", serif;
+    font-size: 1.25rem;
+    
 }
 
 .sectionarea {
     margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.projlink {
+    color: var(--pink);
+    font-size: 1.1rem;
+    font-family: "Jost", serif;
+    transition: 200ms ease-in;
+}
+.projlink:hover {
+    color: black;
+}
+
+#lower_container {
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 75%;
+}
+
+#location {
+    margin-top: -20px;
+}
+
+.projectarea {
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+li {
+    display: inline;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
 }
 
 main {
@@ -231,6 +274,18 @@ span {
     color: var(--pink);
 }
 
+footer {
+    margin-top: 50px;
+    display: flex;
+    background: black;
+    padding: 10px 40px 10px 40px;
+    justify-content: space-between;
+}
+h3 {
+    color: white;
+    font-family: "Jost", serif;
+}
+
 /* @keyframes spin {
     from {background-image: conic-gradient(var(--pink) 190deg), var(--blue) 330deg;}
     to {background-image: conic-gradient(var(--pink) 250deg), var(--blue) 350deg;}
@@ -254,6 +309,10 @@ span {
     #image {
         width: 480px;
         height: 480px;
+    }
+    footer {
+        flex-direction: column;
+        text-align: center;
     }
 }
 
