@@ -18,18 +18,18 @@
                 </h2>
             </div>
             <div id="linkarea">
-                <a href="#" class="link">About Me</a>
-                <a href="#" class="link">Work</a>
-                <a href="#" class="link">Projects</a>
+                <a href="#aboutme" class="link">About Me</a>
+                <a href="#work" class="link">Work</a>
+                <a href="#projects" class="link">Projects</a>
             </div>
             <div id="mobilenav">
                 <button id="ddbtn">
                   
                     <select id="hamburger" name="links">
                         
-                        <option value="About Me"><a href="#" class="mobilelink">About Me</a></option>
-                        <option value="Work"><a href="#" class="mobilelink">Work</a></option>
-                        <option value="Projects"><a href="#" class="mobilelink">Projects</a></option>
+                        <option value="About Me"><a href="#aboutme" class="mobilelink">About Me</a></option>
+                        <option value="Work"><a href="#work" class="mobilelink">Work</a></option>
+                        <option value="Projects"><a href="#projects" class="mobilelink">Projects</a></option>
                     </select>
                 </button>
             </div>
@@ -50,13 +50,28 @@
 
             <div id="gradient-board">
                 <div id="inside-board">
-                    <img>
+                    <picture>
+                        <source media="(min-width:553px)" srcset="./assets/images/bench.jpg">
+                        <source media="(max-width:552px)" srcset="./assets/images/portrait.jpg">
+                        <img id="image" src="./assets/images/bench.jpg" alt="Bodhi Woll sitting on a bench with lovely nature behind him.">
+                      </picture> 
                 </div>
             </div>
+            <div>
+                <h1>
+                    Hi. I am <span>Bodhi.</span>
+                </h1>
+            </div>
         </section>
-        <section class="sectionarea"></section>
-        <section class="sectionarea"></section>
-        <section class="sectionarea"></section>
+        <section class="sectionarea" id="#aboutme">
+            <h2 class="heading">About Me</h2>
+        </section>
+        <section class="sectionarea" id="#work">
+            <h2 class="heading">Work</h2>
+        </section>
+        <section class="sectionarea" id="#projects">
+            <h2 class="heading">Projects</h2>
+        </section>
     </main>
     <footer>
 
